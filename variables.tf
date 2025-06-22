@@ -5,11 +5,11 @@
     # sensitive   = true
     # }
 
-    # variable "github_owner" {
-    # description = "GitHub owner/organization name"
-    # type        = string
-    # default     = "GannySpenzer"
-    # }
+     variable "github_owner" {
+     description = "GitHub owner/organization name"
+     type        = string
+     default     = "AvaSampleOrganization"
+     }
 
     
     variable "repositories" {
